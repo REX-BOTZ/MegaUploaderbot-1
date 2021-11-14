@@ -19,7 +19,7 @@ After meeting the requirements, fill the bot/credentials.py file and then depoly
 ## Direct Deploy
 Click Below Button to Deploy your Bot.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AJTimePyro/MegaUploaderbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AJTimePyro/MegaUploaderbot-1)
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FAJTimePyro%2FMegaUploaderbot&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CMONGO_CON_STRING&API_IDDesc=Get+From+https%3A%2F%2Fmy.telegram.org&API_HASHDesc=Get+From+https%3A%2F%2Fmy.telegram.org&BOT_TOKENDesc=Create%2FGenerate+From+https%3A%2F%2Ft.me%2FBotFather&MONGO_CON_STRINGDesc=Get+it+from+mongoDB+Atlas.)
 
