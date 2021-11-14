@@ -40,15 +40,15 @@ def line_number(fileName, e= ''):
 #Checking User whether he joined channel and group or not joined.
 async def search_user_in_community(bot, update):
     try:
-        userChannel = await bot.get_chat_member('@AJPyroVerse', update.chat.id)
-        userGroup = await bot.get_chat_member('@AJPyroVerseGroup', update.chat.id)
+        userChannel = await bot.get_chat_member('@REX_BOTZ', update.chat.id)
+        userGroup = await bot.get_chat_member('@Rex_Bots_Support', update.chat.id)
         if "kicked" in (userGroup.status, userChannel.status):
             await update.reply_text(BotMessage.userBanned, parse_mode = 'html')
             return
     except UserNotParticipant:
         await update.reply_text(BotMessage.not_joined_community, parse_mode = 'html',reply_markup=InlineKeyboardMarkup([
-        [InlineKeyboardButton('Join our Channel.',url = 'https://t.me/AJPyroVerse')],
-        [InlineKeyboardButton('Join our Group.',url = 'https://t.me/AJPyroVerseGroup')]
+        [InlineKeyboardButton('Join our Channel.',url = 'https://t.me/REX_BOTZ')],
+        [InlineKeyboardButton('Join our Group.',url = 'https://t.me/Rex_Bots_Support')]
         ]))
         return
     except exceptions.bad_request_400.ChatAdminRequired:
